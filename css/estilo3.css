@@ -1,0 +1,121 @@
+/* CSS Document */
+body
+{
+	background-color:#000033;
+	
+		text-color:#FFFFFF;  
+
+	
+	text-decoration:inherit;
+	font-size:large;
+	 
+}
+
+h1
+{
+	color:#993333;
+	text-align:center;
+	font-size:xx-large;
+	
+}
+h2
+{
+	color: #FFFFFF;
+	
+}
+hr
+{
+	color: #FF0000;
+}
+td 
+{ 
+	color:#FFFFFF;
+   	font-family:verdana,arial; 
+   	font-size:12pt; 
+} 
+th
+{
+	color:#FF0000;
+}
+.estilotabla
+{
+	
+
+   	background-color: ; 
+   	border-style: dotted;
+   	border-color:666666;
+   	border-width:1px;
+	text-align:center;
+	
+}
+.estilotabla1
+{
+	border: 1;
+	margin: 0px 0px 0px 710px;
+   	background-color: ; 
+   	border-style: dotted;
+   	border-color:666666;
+   	border-width:1px;
+	text-align:center;
+	color:#00CC00;
+}	
+.estilocelda
+{ 
+
+   	background-color: #990000; 
+   	font-size:15pt;
+	text-align:right;
+	color:#000000; 
+} 
+#cent
+{ 
+   	background-color:ddeeff; 
+   	color:#CC6666;
+   	font-weight:bold; 
+   	font-size:10pt;
+	text-align:center
+} 
+
+
+	#inputcarro {
+		border:1px inset rgb(153,204,255);
+		width: 40px;
+		background:rgb(102,153,204);
+		text-align : center;
+	color=white;
+	}
+	#inputs {
+		border:1px inset rgb(153,204,255);
+		width: 280px;
+		background:rgb(102,153,204);
+		text-align : center;
+		
+		}
+		
+	
+		#inputs1 {
+		border:0;
+		width: 280px;
+		background:rgb(102,153,204);
+		text-align : center;
+		background:#000033;
+		}
+		
+	#boton  {
+		background: rgb(102,153,204) border:1px outset rgb(153,204,255);
+		width:80px;
+		font : 8pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+		background-color : #FFFACD;
+		color : #4B0082;
+	}
+	div.marco {border:2px groove rgb(153,204,255);width: 750px;	padding:15px}
+	div.marco2 {border:2px groove rgb(153,204,255);width: 700px;padding:15px}
+	p.texto {letter-spacing: 3px;color:rgb(0,51,102);font-weight: bold}
+	span.label {width:150px;vertical-align:top;color:white;
+				float:left}
+	div {margin-top:15px}
+	span.label2{ background-color:#000033; }
+h4
+{
+color:#00CC00;
+}

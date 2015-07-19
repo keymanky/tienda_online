@@ -1,0 +1,125 @@
+/*NOTA: Podemos manipular los degradados y efectos visuales con jquary o con css, en este caso usamos csss*/
+/*Degradados circulares
+div.circular{
+   background: -webkit-radial-gradient(#0f0, #06f);
+   background: -moz-radial-gradient(#0f0, #06f);
+   border: 1px solid #333;
+   height: 200px;
+   width: 250px;
+}*/
+body{
+	font-family: Calibri, "Arial Rounded MT Bold", "Lucida Sans Unicode";
+}
+
+#encabezado{
+	position: absolute;
+	width: 1000px;
+	height: 200px;
+	top: 50px;
+	left: 50%;
+	margin-left:-500px;
+	
+	/*Degradados para los diferentes navegadores se puede simular una facilmente con background-color: rgba(r,g,b, 0-1)*/
+	background: #FC0; /*No lo soporten IE*/
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#000000), to(#F9F342));/*Safari y q se basen en webkit*/
+	background: -moz-linear-gradient(#000000, #F9F342);/*Para mozila*/
+	background: -o-linear-gradient(#000000, #F9F342);/*Para opera*/
+	
+	/*De igual forma los divs con bordes ciculares : el primero es para IE, Mozila, Safari y Chrome*/
+	border-radius: 25px 25px 25px 25px;	
+	-moz-border-radius:25px 25px 25px 25px;
+	-webkit-border-radius:25px 25px 25px 25px;
+	
+	/*De igual forma para sombra el primero IE, Safari y Chrome, Mozila*/
+	box-shadow: 5px -9px 3px #666;
+	-webkit-box-shadow: #666 0px 2px 3px;
+	-moz-box-shadow: #666 0px 2px 3px;		
+}
+
+#subdiv{
+	width: 400px;
+	height: 150px;
+	position: absolute;
+	left: 50%;
+	margin-left: -200px;
+	top: 25px;
+	text-align: left;
+	font-size: 48px;
+	font-weight: bold;
+	color: #FFF;	
+}
+
+#panel{
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	top: 260px;
+	left: 50%;
+	margin-left: -500px;
+	overflow: auto;
+	color: #000;
+	font-family: Calibri, "Arial Rounded MT Bold", "Lucida Sans Unicode";
+	font-size: 14px;
+	
+	/*Degradados para los diferentes navegadores*/
+	background: #000; /*No lo soporten*/
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#868A08), to(#D7DF01));/*Safari y q se basen en webkit*/
+	background: -moz-linear-gradient(#868A08, #D7DF01);/*Para mozila*/
+	background: -o-linear-gradient(#868A08, #D7DF01);/*Para opera*/
+	
+	/*De igual forma los divs con bordes ciculares : el primero es para IE, Mozila, Safari y Chrome*/
+	border-radius: 10px 10px 10px 10px;	
+	-moz-border-radius:10px 10px 10px 10px;
+	-webkit-border-radius:10px 10px 10px 10px;
+}
+
+#descripcion{
+	background-color: #36F;
+	position: absolute;
+	width: 590px;
+	height: 400px;
+	top: 260px;
+	left: 50%;
+	margin-left: -90px;
+	overflow: auto;
+	border-radius: 10px 10px 10px 10px;	
+	-moz-border-radius:10px 10px 10px 10px;
+	-webkit-border-radius:10px 10px 10px 10px;	
+}
+
+#creditos{
+	font-size: 9px;
+	background-color: #F9F342;
+	position: absolute;
+	width: 1000px;
+	height: 80px;
+	top: 670px;
+	left: 50%;
+	margin-left: -500px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	
+	/*Degradados para los diferentes navegadores se puede simular una facilmente con background-color: rgba(r,g,b, 0-1)*/
+	background: #FC0; /*No lo soporten IE*/
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#000000), to(#D7DF01));/*Safari y q se basen en webkit*/
+	background: -moz-linear-gradient(#000000, #D7DF01);/*Para mozila*/
+	background: -o-linear-gradient(#000000, #D7DF01);/*Para opera*/
+	
+		/*De igual forma los divs con bordes ciculares : el primero es para IE, Mozila, Safari y Chrome*/
+	border-radius: 25px 25px 25px 25px;	
+	-moz-border-radius:25px 25px 25px 25px;
+	-webkit-border-radius:25px 25px 25px 25px;
+	
+	/*De igual forma para sombra el primero IE, Safari y Chrome, Mozila*/
+	box-shadow: 5px -9px 3px #666;
+	-webkit-box-shadow: #666 0px 2px 3px;
+	-moz-box-shadow: #666 0px 2px 3px;	
+}
+
+#final{
+	position: absolute;
+	width: 1000px;
+	height: 50px;
+	top: 720px;
+}
